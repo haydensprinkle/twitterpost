@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Twitter Post App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Twitter Post</h1>
+    </header>
+    <main>
+      <form action="submit" id="tweet-area">
+        <textarea
+          name="tweet"
+          id="tweet"
+          cols="30"
+          rows="5"
+          placeholder="Enter a Tweet..."
+        ></textarea>
+        <button type="submit" id="post">Post</button>
+      </form>
+    </main>
+  </body>
 </html>
