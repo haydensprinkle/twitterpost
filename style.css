@@ -1,27 +1,35 @@
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-form{
-    display: flex;
-    flex-direction: column;
+form {
+  display: flex;
+  flex-direction: column;
 }
-#title{
-    color: #1DA1F2;
-    background-color: rgb(226, 220, 220);
-    width: 250px;
-    text-align: center;
+#title {
+  color: #1da1f2;
+  background-color: rgb(226, 220, 220);
+  width: 250px;
+  text-align: center;
 }
-#tweet-area{
-    width: 250px;
+#tweet-area {
+  width: 250px;
 }
-#post{
-    width: 80px;
-    border-radius: 5px;
-    background-color: #1DA1F2;
-    align-self: flex-end;
-    margin-top: 20px;
-    height: 30px;
+#post {
+  width: 80px;
+  border-radius: 5px;
+  background-color: #1da1f2;
+  align-self: flex-end;
+  margin-top: 20px;
+  height: 30px;
+  color: rgb(226, 220, 220);
+  text-align: center;
+  text-decoration: none;
+  padding-top: 6px;
+}
+#post:hover {
+  color: white;
 }

@@ -15,12 +15,18 @@
       <form action="submit" id="tweet-area">
         <textarea
           name="tweet"
-          id="tweet"
+          id="tweet-text"
           cols="30"
           rows="5"
           placeholder="Enter a Tweet..."
         ></textarea>
-        <button type="submit" id="post">Post</button>
+        <button id="post" onclick="postTweet()">Post</button>
+        <!-- <a
+          id="post"
+          class="twitter-share-button"
+          href="https://twitter.com/intent/tweet?text=Hello%20world"
+        >
+          Tweet</a>-->
       </form>
     </main>
   </body>
